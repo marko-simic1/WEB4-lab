@@ -270,6 +270,11 @@ function drawShadow(x, y, w, h, color) {
     ctx.shadowOffsetY = 2;
     ctx.fillStyle = color;
     ctx.fillRect(x, y, w, h);
+    //resetiranje sjene
+    ctx.shadowColor = "transparent";
+    ctx.shadowBlur = 0;
+    ctx.shadowOffsetX = 0;
+    ctx.shadowOffsetY = 0;
 }
 
 //start ekran
