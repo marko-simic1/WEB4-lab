@@ -1,0 +1,20 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Helvetica, Verdana, sans-serif;
+}
+
+#myCanvas {
+    background-color: #000000;
+    border: 5px solid #FFFFFF;
+    display: block;
+}
+
