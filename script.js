@@ -13,7 +13,7 @@ const BRICK_COLORS = [
 let bricks = [];
 
 //varijable za palicu
-const PADDLE_WIDTH = 60;
+const PADDLE_WIDTH = 80;
 const PADDLE_HEIGHT = 15;
 let PADDLE_SPEED = 7;
 let paddleX;
